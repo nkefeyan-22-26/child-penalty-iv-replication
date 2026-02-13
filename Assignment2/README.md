@@ -54,9 +54,9 @@ This occurs because the **base rate** (prior probability) dominates the posterio
 - **Critical Value (p < 0.05):** 3.84
 
 ### Finding:
-Chi-Square = 2.50 < 3.84, so the deviation is **not statistically significant**. The observed data does not show evidence of bias from random assignment. The "missing" 500 users in treatment can be attributed to random chance.
+Chi-Square = 2.50 < 3.84, so the deviation is **not statistically significant** at the 0.05 level. The observed data does not have bias from random assignment. The "missing" 500 users in treatment can be attributed to random chance, not engineering problems or systematic bias.
 
-**Takeaway:** Random assignment produces natural variation. Statistical tests prevent us from seeing patterns in noise.
+**Takeaway:** Random assignment naturally produces variation. Statistical tests prevent us from seeing patterns in noise. The experiment is VALID.
 
 ---
 
