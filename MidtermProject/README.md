@@ -23,17 +23,19 @@ research. It was loaded into Python, optimized, and saved as compressed `.csv.gz
 Two versions of the processed data are stored in `data/raw/` — see `data/raw/README.md`
 for a full explanation of the files and how to recreate them from the original source.
 
-## Working Repository Structure
+
+## Repository Structure
 ```
 data/
 └── raw/
-    ├── README.md                  # Data documentation
-    ├── census80_slim.csv.gz       # 20 key variables — used in all notebooks
-    └── census80_full.csv.gz       # All 85 variables — for reference
-notebooks/
-└── 01_Data_Cleaning.ipynb
+    ├── README.md                        # Data documentation
+    ├── census80_slim.csv.gz             # 20 key variables — used in all notebooks
+    ├── census80_full.csv.gz             # All 85 variables — for reference
+    └── notebooks/
+        ├── 01_Data_Cleaning.ipynb       # Data ingestion and processing
+        └── 02_Replication_Analysis.ipynb  # IV replication: OLS, First Stage, 2SLS, Wald
 ```
 
 ## Environment
 - Python 3.10+
-- pandas, pyreadstat, numpy, jupyter
+- pandas, numpy, statsmodels, linearmodels, jupyter
