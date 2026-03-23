@@ -15,6 +15,8 @@ composition of the first two children — parents are more likely to have a thir
 first two are the same sex, a preference unrelated to labor market outcomes.
 
 ## Key Results
+
+### Core IV Estimates
 | Method | Coefficient on `morekids` | Interpretation |
 |---|---|---|
 | OLS (Biased) | — | Endogenous — not reliable |
@@ -25,6 +27,18 @@ first two are the same sex, a preference unrelated to labor market outcomes.
 
 Having more than two children causally reduces a mother's weeks worked by approximately
 16.6 weeks per year, identified using same-sex sibling composition as an instrument.
+
+### Heterogeneous Treatment Effects by Race
+| Race | Mothers (weeks) | Fathers (weeks) | Fathers Significant? |
+|---|---|---|---|
+| White | -17.47 | +2.07 | No |
+| Black | -10.63 | +2.05 | No |
+| Other | -9.88 | +1.38 | No |
+
+The child penalty is large and statistically significant for mothers across all race groups,
+but effectively zero for fathers regardless of race. White mothers face nearly twice the
+penalty of Black and Other mothers, consistent with documented differences in labor force
+attachment in 1980. The asymmetry between mothers and fathers holds universally.
 
 ## Data Source
 Downloaded from the Angrist Data Archive at MIT Economics:
@@ -43,7 +57,8 @@ data/
     ├── census80_full.csv.gz               # All 85 variables — for reference
     └── notebooks/
         ├── 01_Data_Cleaning.ipynb         # Data ingestion, decoding, and processing
-        └── 02_Replication_Analysis.ipynb  # IV replication: First Stage, 2SLS, Wald
+        ├── 02_Replication_Analysis.ipynb  # IV replication: First Stage, 2SLS, Wald
+        └── 03_Extension_Analysis.ipynb    # HTE by race, mothers vs. fathers forest plots
 ```
 
 ## Reproducing the Analysis
@@ -54,9 +69,5 @@ data/
 
 ## Environment
 - Python 3.10+
-- pandas, numpy, statsmodels, linearmodels, jupyter
+- pandas, numpy, statsmodels, linearmodels, matplotlib, jupyter
 ```
-
-## Environment
-- Python 3.10+
-- pandas, numpy, statsmodels, linearmodels, jupyter
