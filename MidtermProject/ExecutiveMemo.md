@@ -25,8 +25,8 @@ This instrument is valid because:
 ---
 
 ## Figure 1: IV-2SLS Estimates of the Child Penalty on Weeks Worked by Race and Parent Gender
-![Child Penalty by Race: Mothers vs. Fathers](data/raw/notebooks/forest_plot_race.png)
-![Child Penalty by Race: Mothers vs. Fathers](data/raw/notebooks/forest_plot_mothers_vs_fathers.png)
+![Child Penalty by Race: Mothers vs. Fathers](data/raw/notebooks/forest_plot_race.png.png)
+![Child Penalty by Race: Mothers vs. Fathers](data/raw/notebooks/forest_plot_mothers_vs_fathers.png.png)
 
 *Each dot represents the causal effect of having a third child on annual weeks worked for a given race-gender group. The instrument is the same-sex sibling composition. The lines show 95% confidence intervals. The red-dashed line marks zero (no effect).
 Data: 1980 U.S. Census extract; Angrist & Evans (1998)*
