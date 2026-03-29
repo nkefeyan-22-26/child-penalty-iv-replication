@@ -1,8 +1,6 @@
 # The Hidden Cost of Parenthood on Women's Careers
 
-**To:** Policy Stakeholders
-**From:** Nathan Kefeyan
-**Re:** Causal Evidence on the Labor Market Impact of Family Size — Replication & Extension of Angrist & Evans (1998)
+Causal Evidence on the Labor Market Impact of Family Size — Replication & Extension of Angrist & Evans (1998)
 **Date:** March 2026
 
 ---
