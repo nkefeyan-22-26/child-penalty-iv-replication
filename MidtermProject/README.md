@@ -29,7 +29,7 @@ This instrument is valid because:
 *Each dot represents the causal effect of having a third child on annual weeks worked for a given race-gender group. The instrument is the same-sex sibling composition. The lines show 95% confidence intervals. The red-dashed line marks zero (no effect).
 Data: 1980 U.S. Census extract; Angrist & Evans (1998)*
 
-The left panel shows that the child penalty in weeks reduced for mothers is large and significant across all three race groups, as confidence intervals are below zero. The right panel shows that fathers experience no statistically significant change in weeks worked, regardless of race (all confidence intervals are above zero).
+The left panel shows that the child penalty in weeks reduced for mothers is large and significant across all three race groups, as confidence intervals are below zero. The right panel shows that fathers experience no statistically significant change in weeks worked, regardless of race (all confidence intervals are above zero). For fathers, the coefficients are small and positive across all three race groups. White and Black fathers show statistically significant effects, but the magnitude is economically negligible compared to that of mothers. The only confidence interval that crosses zero is the “Other” category, which makes the estimate statistically indistinguishable from no effect. So, the father-side results are effectively practically insignificant rather than statistically insignificant. 
 
 ---
 
@@ -40,6 +40,10 @@ The left panel shows that the child penalty in weeks reduced for mothers is larg
 2. **The racial gradient exposes a potential targeted intervention** — White mothers face a penalty nearly twice the size of Black and Other mothers, likely reflecting a structural difference. White mothers in this era were more able to exit the workforce entirely after a third child, while Black mothers had higher baseline labor force participation due to economic necessity. Workplace retention programs that focus on senior or high-earning women (skewed White) might have a harder time succeeding due to White women facing the highest penalty for a third child.
 
 3. **The career tax on mothers is a structural outcome** — the relationship is causal rather than just correlational, telling us that the child causes the labor penalty and nothing else. This is addressable through policies like subsidized childcare, flexible scheduling, and onboarding programs for returning mothers. The expected return is a measurable positive effect on recovered labor supply.
+
+# Limitations & Next Steps
+There is an uneven distribution of observations across race groups, which shows the demographic composition of the United States in 1980: White mothers are roughly 85% of the sample (n=764,068), while Black mothers are approximately 12% (n=108,812). “Other” makes up about 3%. The wide confidence intervals for 'Other' races in both panels reflect this smaller, more diverse sample (includes American Indian, Chinese, Japanese, Other Asian, and other groups). The variability in that estimate should therefore be interpreted with caution. A natural extension of this work would be to apply the same IV strategy to more recent Census data, where racial categories are more granular and sample sizes are larger.
+
 
 
 # Replication: Angrist & Evans (1998) — Children and Parental Labor Supply
